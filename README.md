@@ -17,6 +17,7 @@ Uses the DallE 2 API, developed by openai, for generating images and text.
   ```
   curl https://codeload.github.com/Venu2HD/DallE-2-Python/zip/refs/heads/main -o %USERPROFILE%\Downloads\DallE-2-Python.zip
   ```
-  Unzip the like so:
+  Unzip the file like so:
   
   ![alt text](https://cdn.discordapp.com/attachments/1027204530644988004/1046756929185259530/unzip.jpg)
+  ![alt text](https://cdn.discordapp.com/attachments/1027204530644988004/1046758126277361784/unzip.jpg)
