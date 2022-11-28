@@ -7,6 +7,10 @@ def ensurefolders():
         pass
     else:
         mkdir("Results")
+    if exists("temp") and isdir("temp"):
+        pass
+    else:
+        mkdir("temp")
 
 def saveimgoutput(image_binary:bytes, output_filename:str, save_output:bool):
     if save_output:
