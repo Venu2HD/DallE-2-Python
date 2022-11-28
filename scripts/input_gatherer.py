@@ -67,14 +67,14 @@ def getimagesavepref(image_pillow:Image, show_image:bool = True):
                 break
         save_image = True
     else:
-        save_image = False
+        save_image, image_save_name = False, ""
     return {"image_save_name": image_save_name, "save_output": save_image}
 
 def gettextsavepref(final_text:str, show_text:bool = True):
     if show_text:
-        if final_text[4:] == "\n\n":
+        if final_text.replace(final_text[4:], "") == "\n\n":
             print(f"{final_text[4:]}{'{}'}".format("\n"))
-        elif final_text[2:] == "\n":
+        elif final_text.replace(final_text[2:], "") == "\n":
             print(f"{final_text[2:]}{'{}'}".format("\n"))
         else:
             print(f"{final_text}{'{}'}".format("\n"))
@@ -84,4 +84,6 @@ def gettextsavepref(final_text:str, show_text:bool = True):
             filename = "{}.txt".format(input("What should the text be saved as? (Exclude the file extension)\n"))
             if filename != "":
                 break
+    else:
+        filename = ""
     return {"save_text": save_text, "filename": filename}
