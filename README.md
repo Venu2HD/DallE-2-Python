@@ -2,12 +2,14 @@
 Uses the DallE 2 API, developed by openai, for generating images and text.
 ## Install
   ### 🐧Linux/Unix🐧
+  Open a terminal
   ```
   git clone https://github.com/Venu2HD/DallE-2-Python.git
   cd DallE-2-Python
   python3 main.py
   ```
   ### 🍎MacOS🍎
+  Open a terminal
   ```
   git clone https://github.com/Venu2HD/DallE-2-Python.git
   cd DallE-2-Python
