@@ -16,6 +16,7 @@ Uses the DallE 2 API, developed by openai, for generating images and text.
   python3 main.py
   ```
   ### 🪟Windows🪟
+  Open a command prompt window
   ```
   curl https://codeload.github.com/Venu2HD/DallE-2-Python/zip/refs/heads/main -o %USERPROFILE%\Downloads\DallE-2-Python.zip
   ```
