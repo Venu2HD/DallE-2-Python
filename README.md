@@ -25,6 +25,6 @@ Uses the DallE 2 API, developed by openai, for generating images and text.
   ![alt text](https://cdn.discordapp.com/attachments/1027204530644988004/1046756929185259530/unzip.jpg)
   ![alt text](https://cdn.discordapp.com/attachments/1027204530644988004/1046759736906874941/unzip.png)
   
-  Replace the YOUR_API_KEY in
+  Replace the YOUR_API_KEY in settings.json with your secret key you got from openai.
   
   Then run the main.py file.
