@@ -9,7 +9,7 @@ Uses the DallE 2 API, developed by openai, for generating images and text.
   git clone https://github.com/Venu2HD/DallE-2-Python.git
   ```
   Replace the YOUR_API_KEY in settings.json with your secret key which you can get here:
-  [How to get openai secret key](https://elephas.app/blog/how-to-create-openai-api-keys-cl5c4f21d281431po7k8fgyol0)
+  [How to get openai secret key](https://beta.openai.com/account/api-keys)
   ```
   cd DallE-2-Python
   python3 main.py
@@ -22,7 +22,7 @@ Uses the DallE 2 API, developed by openai, for generating images and text.
   git clone https://github.com/Venu2HD/DallE-2-Python.git
   ```
   Replace the YOUR_API_KEY in settings.json with your secret key which you can get here:
-  [How to get openai secret key](https://elephas.app/blog/how-to-create-openai-api-keys-cl5c4f21d281431po7k8fgyol0)
+  [How to get openai secret key](https://beta.openai.com/account/api-keys)
   ```
   cd DallE-2-Python
   python3 main.py
@@ -42,6 +42,6 @@ Uses the DallE 2 API, developed by openai, for generating images and text.
   ![unzip1](https://cdn.discordapp.com/attachments/1027204530644988004/1046759736906874941/unzip.png)
   
   Replace the YOUR_API_KEY in settings.json with your secret key which you can get here:
-  [How to get openai secret key](https://elephas.app/blog/how-to-create-openai-api-keys-cl5c4f21d281431po7k8fgyol0)
+  [How to get openai secret key](https://beta.openai.com/account/api-keys)
   
   Then run the main.py file.
