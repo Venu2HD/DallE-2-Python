@@ -30,9 +30,9 @@ def getimgoutput(url:str):
 
 def savetextoutput(final_text:str, output_filename:str, save_output:bool):
     if save_output:
-        if final_text[4:] == "\n\n":
+        if final_text.replace(final_text[4:], "") == "\n\n":
             final_text = final_text[4:]
-        elif final_text[2:] == "\n":
+        elif final_text.replace(final_text[2:], "") == "\n":
             final_text = final_text[2:]
         if name == "nt":
             with open(f"Results\\{output_filename}", "w") as output_file:
